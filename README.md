@@ -1,7 +1,7 @@
 
 # Game of Life in parallel
 
-This project is focused on the implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) with parallel processing. The following techonologies were used: MPI, OpenMp and Cuda. In total 6 programs were made in order to create meaningful benchmarks:
+This project is focused on the implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) with parallel processing. The following techonologies were used: MPI, OpenMp and CUDA. In total 6 programs were made in order to create meaningful benchmarks:
 * simple serial C program
 * MPI with serial I/O
 * MPI with async I/O
@@ -45,7 +45,7 @@ Where `<version_name>` can be `game`, `cuda`, `mpi`, `async`, `collective` or `o
 
 ## Using the program(s)
 
-Finally, to run the compiled program(s), use one the following commands:
+In order to run the program(s) you will have to use one one of the following commands:
 
 * For the simple C program and the CUDA version
 ```
