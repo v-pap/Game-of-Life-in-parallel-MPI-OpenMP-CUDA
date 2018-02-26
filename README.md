@@ -2,12 +2,12 @@
 # Game of Life in parallel
 
 This project is focused on the implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) with parallel processing. The following techonologies were used: MPI, OpenMp and Cuda. In total 6 programs were made in order to create meaningful benchmarks:
--simple serial C program
--MPI with serial I/O
--MPI with async I/O
--MPI with collective I/O
--MPI with collective I/O + OpenMP
--CUDA
+* simple serial C program
+* MPI with serial I/O
+* MPI with async I/O
+* MPI with collective I/O
+* MPI with collective I/O + OpenMP
+* CUDA
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ sudo apt-get install nvidia-cuda-toolkit
 
 1) Get a copy of the project
 ```
-git clone https://github.com/v-pap/Game-of-Life.git
+git clone https://github.com/v-pap/Game-of-Life-in-parallel.git
 ```
 2) Go into the directory
 ```
@@ -47,11 +47,11 @@ Where `<version_name>` can be `game`, `cuda`, `mpi`, `async`, `collective` or `o
 
 Finally, to run the compiled program(s), use one the following commands:
 
-1) For the simple C program and the CUDA version
+* For the simple C program and the CUDA version
 ```
 ./a.out <width> <height> <input_file>
 ```
-2) For all the MPI or MPI + OpenMP versions
+* For all the MPI or MPI + OpenMP versions
 ```
 mpiexec -n <x> ./a.out <width> <height> <input_file>
 ```
