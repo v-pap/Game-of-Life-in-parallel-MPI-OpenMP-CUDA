@@ -70,7 +70,7 @@ Each source file contains two constants, `GEN_LIMIT` and `SIMILARITY_FREQUENCY` 
 
 * [vsakkas](https://github.com/vsakkas)
 
-* [mahcloudservers](https://github.com/mahcloudservers)
+* [aakordas](https://github.com/mahcloudservers)
 
 ## License
 
